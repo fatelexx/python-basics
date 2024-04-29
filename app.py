@@ -1,3 +1,4 @@
+import sys;
 
 first = float(input('First: '))
 second = float(input('Second: '))
@@ -7,3 +8,4 @@ nums = [1, 2 ,3];
 print(nums);
 set = {"apple", "banana", "cherry"}
 print(set)
+print(sys.version)
