@@ -1,5 +1,11 @@
 import sys;
 
+class MyClass:
+  x = 5
+
+p1 = MyClass();
+print(p1.x);
+
 first = float(input('First: '))
 second = float(input('Second: '))
 sum = str(first + second);
