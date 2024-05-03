@@ -6,6 +6,9 @@ class MyClass:
 p1 = MyClass();
 print(p1.x);
 
+x = lambda a : a + 10
+print(x(5))
+
 first = float(input('First: '))
 second = float(input('Second: '))
 sum = str(first + second);
