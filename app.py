@@ -1,4 +1,8 @@
 import sys;
+import datetime
+
+x = datetime.datetime.now()
+print(x)
 
 class MyClass:
   x = 5
