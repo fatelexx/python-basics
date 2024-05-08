@@ -4,6 +4,11 @@ import datetime
 x = datetime.datetime.now()
 print(x)
 
+def my_function():
+  print("Hello from a function")
+
+my_function()
+
 class MyClass:
   x = 5
 
