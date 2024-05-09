@@ -9,6 +9,10 @@ def my_function():
 
 my_function()
 
+fruits = ["apple", "banana", "cherry"]
+for x in fruits:
+  print(x)
+
 class MyClass:
   x = 5
 
